@@ -1,4 +1,11 @@
 
+Arxi: this is the fork of cordova-plugin-background-mode which completely removes IOS from the plugin's platforms. We need to use background mode only on Android, and the app would otherwise get rejected from AppStore with the following reason:
+
+"Your app declares support for audio in the UIBackgroundModes key in your Info.plist but did not include features that require persistent audio."
+
+Original readme:
+=========================
+
 <p align="left">
     <b><a href="https://github.com/katzer/cordova-plugin-background-mode/tree/example">SAMPLE APP</a> :point_right:</b>
 </p>

@@ -3,6 +3,8 @@ Arxi: this is the fork of cordova-plugin-background-mode which completely remove
 
 "Your app declares support for audio in the UIBackgroundModes key in your Info.plist but did not include features that require persistent audio."
 
+Also, I removed initialization of Android flags which caused the app to stay on top of the lock screen (a change in src/android/BackgroundMode.java)
+
 Original readme:
 =========================
 
